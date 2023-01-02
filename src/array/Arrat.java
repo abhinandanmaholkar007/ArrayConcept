@@ -2,11 +2,11 @@ package array;
 
 import java.util.Arrays;
 
-public class DescendingArray {
+public class Arrat {
     public static void main(String[]args)
     {
         int[] a={2,6,1,8,7};
-        System.out.println("Array before sorting "+Arrays.toString(a));
+        System.out.println("Array before sorting "+ Arrays.toString(a));
         int n=a.length;
 
         for(int i=0;i<n-1;i++)
@@ -20,7 +20,4 @@ public class DescendingArray {
                     a[j+1]=temp;
                 }
                 System.out.println("Array after sorting "+Arrays.toString(a));
-            }
-        }
-    }
-}
+}}}}
